@@ -108,12 +108,12 @@ screen.setup(500, 500)
 screen.tracer(0)
  
  
-pen = turtle.Turtle("square")
+pen = turtle.Turtle("circle")
 pen.penup()
  
  
 food = turtle.Turtle()
-food.shape("square")
+food.shape("circle")
 food.color("yellow")
 food.shapesize(food_size / 20)
 food.penup()
