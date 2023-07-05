@@ -102,7 +102,7 @@ def go_left():
  
 screen = turtle.Screen()
 screen.setup(w, h)
-screen.title("Snake")
+screen.title("Snake Game")
 screen.bgcolor("blue")
 screen.setup(500, 500)
 screen.tracer(0)
